@@ -7,10 +7,11 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 
-var index = require('./routes/index');
 var msgs = require('./routes/msgs');
 var login = require('./routes/login');
 var register = require('./routes/register');
+var posts = require('./routes/posts');
+var todos = require('./routes/todos');
 
 var app = express();
 const port = 3001;
@@ -47,6 +48,8 @@ mongoose.connect('mongodb://localhost/cis197finalproject', function (err) {
 app.use('/msgs', msgs);
 app.use('/login', login);
 app.use('/register', register);
+app.use('/posts', posts);
+app.use('/todos', todos);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

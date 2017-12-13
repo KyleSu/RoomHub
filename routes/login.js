@@ -4,7 +4,7 @@ var path = require('path');
 
 var mongoose = require('mongoose');
 var connection = mongoose.createConnection("mongodb://localhost/cis197finalproject");
-var User = require(path.join(__dirname, '../models/user.js'));
+var User = require(path.join(__dirname, '../models/userSchema.js'));
 
 router.post('/', function(req, res) {
   username = req.body.username;

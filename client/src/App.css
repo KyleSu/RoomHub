@@ -1,4 +1,9 @@
 .App {
+  background-color: #00AA8D;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -20,6 +25,152 @@
 
 .App-intro {
   font-size: large;
+}
+
+.loginpage {
+  margin-top: 30vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.loginheader {
+  font-size: 10em;
+  color: #00BF9A;
+}
+
+
+
+.loginbtns {
+  font-size: 1em;
+}
+
+.col {
+  background-color: #E8E8EE;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.third {
+  height: 87vh;
+  overflow-y: auto;
+}
+
+input[type="text"] {
+  background: rgba(255, 255, 255, 0.5);
+  outline: 0;
+  border: 2px solid #1EE494;
+  padding: 0 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 10px;
+  height: 3vh;
+  width: 25vw;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.post {
+  background: #00BF9A;
+  position: relative;
+  padding: 5px 5px;
+  font-size: 1.1em;
+  border-radius: 10px;
+  list-style: none;
+  float: left;
+  clear: both;
+  margin: 5px 5px;
+  width: 30vw;
+  text-align: center;
+}
+
+.postUser {
+  font-weight: bold;
+}
+
+.comments {
+  padding-left: 5vw;
+}
+
+.comment {
+  background: #B2EBE0;
+  position: relative;
+  padding: 5px 5px;
+  font-size: 0.9em;
+  border-radius: 10px;
+  list-style: none;
+  float: left;
+  clear: both;
+  margin: 5px 5px;
+  width: 20vw;
+  text-align: center;
+}
+
+.commentUser {
+  font-weight: bold;
+}
+
+.todo {
+  background: #00BF9A;
+  position: relative;
+  padding: 5px 5px;
+  font-size: 1.1em;
+  border-radius: 10px;
+  list-style: none;
+  float: left;
+  clear: both;
+  margin: 5px 5px;
+  width: 30vw;
+  text-align: center;
+}
+
+.finished {
+  background: #B2EBE0;
+}
+
+.todoUser {
+  font-size: 0.8em;
+}
+
+.isCompleted {
+  display: inline;
+}
+
+.message {
+  background: #00BF9A;
+  position: relative;
+  padding: 5px 5px;
+  font-size: 0.9em;
+  border-radius: 10px;
+  list-style: none;
+  float: left;
+  clear: both;
+  margin: 5px 5px;
+  max-width: 20vw;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+p {
+  margin: 2px;
+}
+
+.sender {
+  color: #3E3F42;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.logoutbtn {
+  font-size: 2em;
 }
 
 @keyframes App-logo-spin {
